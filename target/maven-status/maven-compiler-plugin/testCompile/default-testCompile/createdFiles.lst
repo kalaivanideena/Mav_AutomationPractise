@@ -1,0 +1,9 @@
+com\maven\pom\MAP_SelectItems.class
+com\maven\pom\MAP_EnterEmailAndSignIn.class
+com\maven\pom\MAP_HomePage.class
+com\maven\pom\MAP_RegistrationDetails.class
+com\maven\baseclass\BaseClass.class
+com\maven\pom\MAP_CartPage.class
+com\maven\testscript\TestRunner.class
+com\maven\pom\MAP_MyAccountPage.class
+com\maven\stepdefinition\StepDefinitions.class

@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="270" failures="0" name="com.maven.testscript.TestRunner" time="0.531" errors="2" skipped="16">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\HP\eclipse-workspace\MavAutomationPractise"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\HP\eclipse-workspace\MavAutomationPractise"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\HP\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1694444542297959913.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\App\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files\Java\jdk1.8.0_191;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;;C:\WINDOWS\System32;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="HP"/>
+    <property name="java.class.path" value="C:\Users\HP\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.9.1.20180912-1600\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s C:\App\apache-maven-3.6.0-bin\apache-maven-3.6.0\conf\settings.xml test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\HP\eclipse-workspace\MavAutomationPractise\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: User clicks SignIn button to enter valid email address" name="Given user prefers to launch chrome browser" time="0.007"/>
+  <testcase classname="Scenario: User clicks SignIn button to enter valid email address" name="And URL is launched in the chrome browser" time="0"/>
+  <testcase classname="Scenario: User clicks SignIn button to enter valid email address" name="And User clicks SignIn button on the home page" time="0"/>
+  <testcase classname="Scenario: User clicks SignIn button to enter valid email address" name="And User enters valid email &apos;sample3@gmail.com&apos;" time="0"/>
+  <testcase classname="Scenario: User clicks SignIn button to enter valid email address" name="And User clicks submit" time="0"/>
+  <testcase classname="Scenario: User clicks SignIn button to enter valid email address" name="Scenario: User clicks SignIn button to enter valid email address" time="0.002"/>
+  <testcase classname="Scenario: User clicks SignIn button to enter invalid email address" name="Given user prefers to launch chrome browser" time="0"/>
+  <testcase classname="Scenario: User clicks SignIn button to enter invalid email address" name="And URL is launched in the chrome browser" time="0"/>
+  <testcase classname="Scenario: User clicks SignIn button to enter invalid email address" name="And User clicks SignIn button on the home page" time="0"/>
+  <testcase classname="Scenario: User clicks SignIn button to enter invalid email address" name="And User enters invalid email" time="0"/>
+  <testcase classname="Scenario: User clicks SignIn button to enter invalid email address" name="And User clicks submit" time="0"/>
+  <testcase classname="Scenario: User clicks SignIn button to enter invalid email address" name="Then User verifies the email to proceed" time="0"/>
+  <testcase classname="Scenario: User clicks SignIn button to enter invalid email address" name="Scenario: User clicks SignIn button to enter invalid email address" time="0.001"/>
+  <testcase classname="Scenario: User clicks SignIn button to enter duplicate email address" name="Given user prefers to launch chrome browser" time="0"/>
+  <testcase classname="Scenario: User clicks SignIn button to enter duplicate email address" name="And URL is launched in the chrome browser" time="0"/>
+  <testcase classname="Scenario: User clicks SignIn button to enter duplicate email address" name="And User clicks SignIn button on the home page" time="0"/>
+  <testcase classname="Scenario: User clicks SignIn button to enter duplicate email address" name="And User enters duplicate email" time="0"/>
+  <testcase classname="Scenario: User clicks SignIn button to enter duplicate email address" name="And User clicks submit" time="0"/>
+  <testcase classname="Scenario: User clicks SignIn button to enter duplicate email address" name="Then User verifies the email to proceed" time="0"/>
+  <testcase classname="Scenario: User clicks SignIn button to enter duplicate email address" name="Scenario: User clicks SignIn button to enter duplicate email address" time="0.001"/>
+  <testcase classname="Scenario: User enters his details to register as Automation Practise customer" name="Given user prefers to launch chrome browser" time="0"/>
+  <testcase classname="Scenario: User enters his details to register as Automation Practise customer" name="And URL is launched in the chrome browser" time="0"/>
+  <testcase classname="Scenario: User enters his details to register as Automation Practise customer" name="And User clicks SignIn button on the home page" time="0"/>
+  <testcase classname="Scenario: User enters his details to register as Automation Practise customer" name="And User enters valid email &apos;samp1@gmail.com&apos;" time="0"/>
+  <testcase classname="Scenario: User enters his details to register as Automation Practise customer" name="And User clicks submit" time="0"/>
+  <testcase classname="Scenario: User enters his details to register as Automation Practise customer" name="And User selects Mr and Mrs" time="0.022">
+    <error message="Element is not clickable" type="java.lang.Exception">java.lang.Exception: Element is not clickable
+	at com.maven.baseclass.BaseClass.elementClick(BaseClass.java:67)
+	at com.maven.stepdefinition.StepDefinitions.user_selects_Mr_and_Mrs(StepDefinitions.java:83)
+	at ✽.And User selects Mr and Mrs(MAP_AutomationPractise_Smoketest.feature:35)
+</error>
+    <system-err>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;id_gender2&quot;}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-V8TPKJE&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\HP\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59736}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 1b6409926635857dcdf95c5517330857
+*** Element info: {Using=id, value=id_gender2}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
+	at com.maven.baseclass.BaseClass.elementClick(BaseClass.java:64)
+	at com.maven.stepdefinition.StepDefinitions.user_selects_Mr_and_Mrs(StepDefinitions.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</system-err>
+  </testcase>
+  <testcase classname="Scenario: User enters his details to register as Automation Practise customer" name="Scenario: User enters his details to register as Automation Practise customer" time="0.024">
+    <error message="Element is not clickable" type="java.lang.Exception">java.lang.Exception: Element is not clickable
+	at com.maven.baseclass.BaseClass.elementClick(BaseClass.java:67)
+	at com.maven.stepdefinition.StepDefinitions.user_selects_Mr_and_Mrs(StepDefinitions.java:83)
+	at ✽.And User selects Mr and Mrs(MAP_AutomationPractise_Smoketest.feature:35)
+</error>
+  </testcase>
+  <testcase classname="Scenario: User enters his details to register as Automation Practise customer" name="And User enters first name &apos;Anvesh&apos;" time="0.024">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: User enters his details to register as Automation Practise customer" name="And User enters last name" time="0.024">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: User enters his details to register as Automation Practise customer" name="And User clicks on email field to confirm the entered email address" time="0.024">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: User enters his details to register as Automation Practise customer" name="And User enters password" time="0.024">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: User enters his details to register as Automation Practise customer" name="And User enters DOB" time="0.024">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: User enters his details to register as Automation Practise customer" name="And User clicks checkbox to subscribe for newsletter" time="0.024">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: User enters his details to register as Automation Practise customer" name="And User clicks checkbox to receive special offers from partners" time="0.024">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: User enters his details to register as Automation Practise customer" name="And User enters address line1" time="0.025">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: User enters his details to register as Automation Practise customer" name="And User enters the name of the city" time="0.025">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: User enters his details to register as Automation Practise customer" name="And User selects a state from the dropdown" time="0.025">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: User enters his details to register as Automation Practise customer" name="And User enters the poscode" time="0.025">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: User enters his details to register as Automation Practise customer" name="And User enters mobile number" time="0.026">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: User enters his details to register as Automation Practise customer" name="And User enters alias information" time="0.028">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: User enters his details to register as Automation Practise customer" name="And User clicks submit in registration page" time="0.037">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: User enters his details to register as Automation Practise customer" name="Then User checks his name in the header on accounts page &apos;Anvesh&apos;" time="0.04">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: User enters his details to register as Automation Practise customer" name="And User logs off" time="0.044">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: User enters his details except password to register as Automation Practise customer" name="Given user prefers to launch chrome browser" time="0"/>
+  <testcase classname="Scenario: User enters his details except password to register as Automation Practise customer" name="And URL is launched in the chrome browser" time="0"/>
+  <testcase classname="Scenario: User enters his details except password to register as Automation Practise customer" name="And User clicks SignIn button on the home page" time="0"/>
+  <testcase classname="Scenario: User enters his details except password to register as Automation Practise customer" name="And User enters valid email &apos;sample3@gmail.com&apos;" time="0"/>
+  <testcase classname="Scenario: User enters his details except password to register as Automation Practise customer" name="And User clicks submit" time="0"/>
+  <testcase classname="Scenario: User enters his details except password to register as Automation Practise customer" name="And User selects Mr and Mrs" time="0"/>
+  <testcase classname="Scenario: User enters his details except password to register as Automation Practise customer" name="And User enters first name &apos;Ankita&apos;" time="0"/>
+  <testcase classname="Scenario: User enters his details except password to register as Automation Practise customer" name="And User enters last name" time="0"/>
+  <testcase classname="Scenario: User enters his details except password to register as Automation Practise customer" name="And User clicks on email field to confirm the entered email address" time="0"/>
+  <testcase classname="Scenario: User enters his details except password to register as Automation Practise customer" name="And User enters DOB" time="0"/>
+  <testcase classname="Scenario: User enters his details except password to register as Automation Practise customer" name="And User clicks checkbox to subscribe for newsletter" time="0"/>
+  <testcase classname="Scenario: User enters his details except password to register as Automation Practise customer" name="And User clicks checkbox to receive special offers from partners" time="0"/>
+  <testcase classname="Scenario: User enters his details except password to register as Automation Practise customer" name="And User enters address line1" time="0"/>
+  <testcase classname="Scenario: User enters his details except password to register as Automation Practise customer" name="And User enters the name of the city" time="0"/>
+  <testcase classname="Scenario: User enters his details except password to register as Automation Practise customer" name="And User selects a state from the dropdown" time="0"/>
+  <testcase classname="Scenario: User enters his details except password to register as Automation Practise customer" name="And User enters the poscode" time="0"/>
+  <testcase classname="Scenario: User enters his details except password to register as Automation Practise customer" name="And User enters mobile number" time="0"/>
+  <testcase classname="Scenario: User enters his details except password to register as Automation Practise customer" name="And User enters alias information" time="0"/>
+  <testcase classname="Scenario: User enters his details except password to register as Automation Practise customer" name="And User clicks submit in registration page" time="0"/>
+  <testcase classname="Scenario: User enters his details except password to register as Automation Practise customer" name="Then User checks error occured for not providing all the details to register &apos;pass&apos;" time="0"/>
+  <testcase classname="Scenario: User enters his details except password to register as Automation Practise customer" name="Scenario: User enters his details except password to register as Automation Practise customer" time="0"/>
+  <testcase classname="Scenario: User enters his details except alias information to register as Automation Practise customer" name="Given user prefers to launch chrome browser" time="0"/>
+  <testcase classname="Scenario: User enters his details except alias information to register as Automation Practise customer" name="And URL is launched in the chrome browser" time="0"/>
+  <testcase classname="Scenario: User enters his details except alias information to register as Automation Practise customer" name="And User clicks SignIn button on the home page" time="0.001"/>
+  <testcase classname="Scenario: User enters his details except alias information to register as Automation Practise customer" name="And User enters valid email &apos;sample3@gmail.com&apos;" time="0"/>
+  <testcase classname="Scenario: User enters his details except alias information to register as Automation Practise customer" name="And User clicks submit" time="0"/>
+  <testcase classname="Scenario: User enters his details except alias information to register as Automation Practise customer" name="And User selects Mr and Mrs" time="0.001"/>
+  <testcase classname="Scenario: User enters his details except alias information to register as Automation Practise customer" name="And User enters first name &apos;Alwin&apos;" time="0"/>
+  <testcase classname="Scenario: User enters his details except alias information to register as Automation Practise customer" name="And User enters last name" time="0"/>
+  <testcase classname="Scenario: User enters his details except alias information to register as Automation Practise customer" name="And User clicks on email field to confirm the entered email address" time="0"/>
+  <testcase classname="Scenario: User enters his details except alias information to register as Automation Practise customer" name="And User enters password" time="0"/>
+  <testcase classname="Scenario: User enters his details except alias information to register as Automation Practise customer" name="And User enters DOB" time="0"/>
+  <testcase classname="Scenario: User enters his details except alias information to register as Automation Practise customer" name="And User clicks checkbox to subscribe for newsletter" time="0"/>
+  <testcase classname="Scenario: User enters his details except alias information to register as Automation Practise customer" name="And User clicks checkbox to receive special offers from partners" time="0"/>
+  <testcase classname="Scenario: User enters his details except alias information to register as Automation Practise customer" name="And User enters address line1" time="0"/>
+  <testcase classname="Scenario: User enters his details except alias information to register as Automation Practise customer" name="And User enters the name of the city" time="0"/>
+  <testcase classname="Scenario: User enters his details except alias information to register as Automation Practise customer" name="And User selects a state from the dropdown" time="0"/>
+  <testcase classname="Scenario: User enters his details except alias information to register as Automation Practise customer" name="And User enters mobile number" time="0"/>
+  <testcase classname="Scenario: User enters his details except alias information to register as Automation Practise customer" name="And User enters alias information" time="0"/>
+  <testcase classname="Scenario: User enters his details except alias information to register as Automation Practise customer" name="And User clicks submit in registration page" time="0"/>
+  <testcase classname="Scenario: User enters his details except alias information to register as Automation Practise customer" name="Then User checks error occured for not providing all the details to register &apos;code&apos;" time="0"/>
+  <testcase classname="Scenario: User enters his details except alias information to register as Automation Practise customer" name="Scenario: User enters his details except alias information to register as Automation Practise customer" time="0.012"/>
+  <testcase classname="Scenario: User logs in with valid user credentials" name="Given user prefers to launch chrome browser" time="0"/>
+  <testcase classname="Scenario: User logs in with valid user credentials" name="And URL is launched in the chrome browser" time="0.001"/>
+  <testcase classname="Scenario: User logs in with valid user credentials" name="And User clicks SignIn button on the home page" time="0"/>
+  <testcase classname="Scenario: User logs in with valid user credentials" name="And User enters user ID in email field2 &apos;samp@gmail.com&apos;" time="0"/>
+  <testcase classname="Scenario: User logs in with valid user credentials" name="And User enters password in the password field &apos;abc123&apos;" time="0"/>
+  <testcase classname="Scenario: User logs in with valid user credentials" name="And User clicks SignIn button" time="0"/>
+  <testcase classname="Scenario: User logs in with valid user credentials" name="Then User checks his name in the header on accounts page &apos;Anu&apos;" time="0"/>
+  <testcase classname="Scenario: User logs in with valid user credentials" name="And User logs off" time="0"/>
+  <testcase classname="Scenario: User logs in with valid user credentials" name="Scenario: User logs in with valid user credentials" time="0"/>
+  <testcase classname="Scenario: User tries to log in with invalid password" name="Given user prefers to launch chrome browser" time="0"/>
+  <testcase classname="Scenario: User tries to log in with invalid password" name="And URL is launched in the chrome browser" time="0"/>
+  <testcase classname="Scenario: User tries to log in with invalid password" name="And User clicks SignIn button on the home page" time="0"/>
+  <testcase classname="Scenario: User tries to log in with invalid password" name="And User enters user ID in email field2 &apos;samp@gmail.com&apos;" time="0"/>
+  <testcase classname="Scenario: User tries to log in with invalid password" name="And User enters password in the password field &apos;abc&apos;" time="0"/>
+  <testcase classname="Scenario: User tries to log in with invalid password" name="And User clicks SignIn button" time="0"/>
+  <testcase classname="Scenario: User tries to log in with invalid password" name="Then User checks if error occurs on providing invalid details &apos;Invalid password&apos;" time="0"/>
+  <testcase classname="Scenario: User tries to log in with invalid password" name="Scenario: User tries to log in with invalid password" time="0"/>
+  <testcase classname="| samp@g | abc123 |" name="Given user prefers to launch chrome browser" time="0"/>
+  <testcase classname="| samp@g | abc123 |" name="And URL is launched in the chrome browser" time="0"/>
+  <testcase classname="| samp@g | abc123 |" name="And User clicks SignIn button on the home page" time="0"/>
+  <testcase classname="| samp@g | abc123 |" name="And User enters user ID in email field2 &apos;samp@g&apos;" time="0"/>
+  <testcase classname="| samp@g | abc123 |" name="And User enters password in the password field &apos;abc123&apos;" time="0"/>
+  <testcase classname="| samp@g | abc123 |" name="And User clicks SignIn button" time="0"/>
+  <testcase classname="| samp@g | abc123 |" name="Then User checks if error occurs on providing invalid details &apos;Invalid email&apos;" time="0"/>
+  <testcase classname="| samp@g | abc123 |" name="| samp@g | abc123 |" time="0"/>
+  <testcase classname="Scenario: User accesses Order History page" name="Given user prefers to launch chrome browser" time="0"/>
+  <testcase classname="Scenario: User accesses Order History page" name="And URL is launched in the chrome browser" time="0"/>
+  <testcase classname="Scenario: User accesses Order History page" name="And User clicks SignIn button on the home page" time="0"/>
+  <testcase classname="Scenario: User accesses Order History page" name="And User enters user ID in email field2 &apos;samp@gmail.com&apos;" time="0"/>
+  <testcase classname="Scenario: User accesses Order History page" name="And User enters password in the password field &apos;abc123&apos;" time="0"/>
+  <testcase classname="Scenario: User accesses Order History page" name="And User clicks SignIn button" time="0"/>
+  <testcase classname="Scenario: User accesses Order History page" name="And User clicks Order History button" time="0"/>
+  <testcase classname="Scenario: User accesses Order History page" name="Then user checks if he has landed on the Order History page &apos;Order history&apos;" time="0"/>
+  <testcase classname="Scenario: User accesses Order History page" name="And User logs off" time="0"/>
+  <testcase classname="Scenario: User accesses Order History page" name="Scenario: User accesses Order History page" time="0.001"/>
+  <testcase classname="Scenario: User accesses My Credit Slip page" name="Given user prefers to launch chrome browser" time="0"/>
+  <testcase classname="Scenario: User accesses My Credit Slip page" name="And URL is launched in the chrome browser" time="0"/>
+  <testcase classname="Scenario: User accesses My Credit Slip page" name="And User clicks SignIn button on the home page" time="0"/>
+  <testcase classname="Scenario: User accesses My Credit Slip page" name="And User enters user ID in email field2 &apos;samp@gmail.com&apos;" time="0"/>
+  <testcase classname="Scenario: User accesses My Credit Slip page" name="And User enters password in the password field &apos;abc123&apos;" time="0"/>
+  <testcase classname="Scenario: User accesses My Credit Slip page" name="And User clicks SignIn button" time="0"/>
+  <testcase classname="Scenario: User accesses My Credit Slip page" name="And User clicks My Credit Slip button" time="0"/>
+  <testcase classname="Scenario: User accesses My Credit Slip page" name="Then user checks if he has landed on the My Credit Slip page &apos;Credit&apos;" time="0"/>
+  <testcase classname="Scenario: User accesses My Credit Slip page" name="And User logs off" time="0"/>
+  <testcase classname="Scenario: User accesses My Credit Slip page" name="Scenario: User accesses My Credit Slip page" time="0.001"/>
+  <testcase classname="Scenario: User accesses My Addresses page" name="Given user prefers to launch chrome browser" time="0"/>
+  <testcase classname="Scenario: User accesses My Addresses page" name="And URL is launched in the chrome browser" time="0"/>
+  <testcase classname="Scenario: User accesses My Addresses page" name="And User clicks SignIn button on the home page" time="0"/>
+  <testcase classname="Scenario: User accesses My Addresses page" name="And User enters user ID in email field2 &apos;samp@gmail.com&apos;" time="0"/>
+  <testcase classname="Scenario: User accesses My Addresses page" name="And User enters password in the password field &apos;abc123&apos;" time="0"/>
+  <testcase classname="Scenario: User accesses My Addresses page" name="And User clicks SignIn button" time="0"/>
+  <testcase classname="Scenario: User accesses My Addresses page" name="And User clicks My Addresses button" time="0"/>
+  <testcase classname="Scenario: User accesses My Addresses page" name="Then user checks if he has landed on the My Addresses page &apos;My addresses&apos;" time="0"/>
+  <testcase classname="Scenario: User accesses My Addresses page" name="And User logs off" time="0"/>
+  <testcase classname="Scenario: User accesses My Addresses page" name="Scenario: User accesses My Addresses page" time="0"/>
+  <testcase classname="Scenario: User accesses Personal Information page" name="Given user prefers to launch chrome browser" time="0"/>
+  <testcase classname="Scenario: User accesses Personal Information page" name="And URL is launched in the chrome browser" time="0"/>
+  <testcase classname="Scenario: User accesses Personal Information page" name="And User clicks SignIn button on the home page" time="0"/>
+  <testcase classname="Scenario: User accesses Personal Information page" name="And User enters user ID in email field2 &apos;samp@gmail.com&apos;" time="0"/>
+  <testcase classname="Scenario: User accesses Personal Information page" name="And User enters password in the password field &apos;abc123&apos;" time="0"/>
+  <testcase classname="Scenario: User accesses Personal Information page" name="And User clicks SignIn button" time="0"/>
+  <testcase classname="Scenario: User accesses Personal Information page" name="And User clicks My Personal Information button" time="0"/>
+  <testcase classname="Scenario: User accesses Personal Information page" name="Then user checks if he has landed on the Personal Information page &apos;personal information&apos;" time="0"/>
+  <testcase classname="Scenario: User accesses Personal Information page" name="And User logs off" time="0"/>
+  <testcase classname="Scenario: User accesses Personal Information page" name="Scenario: User accesses Personal Information page" time="0.002"/>
+  <testcase classname="Scenario: User accesses My Wishlists page" name="Given user prefers to launch chrome browser" time="0"/>
+  <testcase classname="Scenario: User accesses My Wishlists page" name="And URL is launched in the chrome browser" time="0"/>
+  <testcase classname="Scenario: User accesses My Wishlists page" name="And User clicks SignIn button on the home page" time="0"/>
+  <testcase classname="Scenario: User accesses My Wishlists page" name="And User enters user ID in email field2 &apos;samp@gmail.com&apos;" time="0.001"/>
+  <testcase classname="Scenario: User accesses My Wishlists page" name="And User enters password in the password field &apos;abc123&apos;" time="0"/>
+  <testcase classname="Scenario: User accesses My Wishlists page" name="And User clicks SignIn button" time="0"/>
+  <testcase classname="Scenario: User accesses My Wishlists page" name="And User clicks My Wishlists button" time="0"/>
+  <testcase classname="Scenario: User accesses My Wishlists page" name="Then user checks if he has landed on the My Wishlists page &apos;My wishlists&apos;" time="0"/>
+  <testcase classname="Scenario: User accesses My Wishlists page" name="And User logs off" time="0"/>
+  <testcase classname="Scenario: User accesses My Wishlists page" name="Scenario: User accesses My Wishlists page" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="Given user prefers to launch chrome browser" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And URL is launched in the chrome browser" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User clicks SignIn button on the home page" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User enters user ID in email field2 &apos;samp@gmail.com&apos;" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User enters password in the password field &apos;abc123&apos;" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User clicks SignIn button" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User navigates to Women menu" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User chooses Causal Dresses" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User clicks Add to Cart" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User clicks continue shopping" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User navigates to Dresses" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User selects Evening dresses" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User clicks Add to Cart" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User clicks continue shopping" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User logs off" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="Scenario: User selects articles and adds to cart" time="0.001"/>
+  <testcase classname="Scenario: User selects articles and adds to cart and tries to place order without accepting terms and conditions" name="Given user prefers to launch chrome browser" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart and tries to place order without accepting terms and conditions" name="And URL is launched in the chrome browser" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart and tries to place order without accepting terms and conditions" name="And User clicks SignIn button on the home page" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart and tries to place order without accepting terms and conditions" name="And User enters user ID in email field2 &apos;samp@gmail.com&apos;" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart and tries to place order without accepting terms and conditions" name="And User enters password in the password field &apos;abc123&apos;" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart and tries to place order without accepting terms and conditions" name="And User clicks SignIn button" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart and tries to place order without accepting terms and conditions" name="And User navigates to Women menu" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart and tries to place order without accepting terms and conditions" name="And User chooses Causal Dresses" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart and tries to place order without accepting terms and conditions" name="And User clicks Add to Cart" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart and tries to place order without accepting terms and conditions" name="And User clicks continue shopping" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart and tries to place order without accepting terms and conditions" name="And User navigates to Dresses" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart and tries to place order without accepting terms and conditions" name="And User selects Evening dresses" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart and tries to place order without accepting terms and conditions" name="And User clicks Add to Cart" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart and tries to place order without accepting terms and conditions" name="And User clicks continue shopping" time="0.001"/>
+  <testcase classname="Scenario: User selects articles and adds to cart and tries to place order without accepting terms and conditions" name="And User clicks Proceed to Checkout" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart and tries to place order without accepting terms and conditions" name="Then User checks the total purchase price" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart and tries to place order without accepting terms and conditions" name="And User clicks Proceed to checkout on Cart page" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart and tries to place order without accepting terms and conditions" name="And User clicks Proceed to checkout on Address page" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart and tries to place order without accepting terms and conditions" name="And User Clicks Proceed to checkout on Shipping(career) page" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart and tries to place order without accepting terms and conditions" name="Then User check if he gets a error prompt for not checking Terms and conditions checkbox" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart and tries to place order without accepting terms and conditions" name="And User closes the error message" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart and tries to place order without accepting terms and conditions" name="And User logs off" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart and tries to place order without accepting terms and conditions" name="Scenario: User selects articles and adds to cart and tries to place order without accepting terms and conditions" time="0.005"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="Given user prefers to launch chrome browser" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And URL is launched in the chrome browser" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User clicks SignIn button on the home page" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User enters user ID in email field2 &apos;samp@gmail.com&apos;" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User enters password in the password field &apos;abc123&apos;" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User clicks SignIn button" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User navigates to Women menu" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User chooses Causal Dresses" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User clicks Add to Cart" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User clicks continue shopping" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User navigates to Dresses" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User selects Evening dresses" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User clicks Add to Cart" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User clicks continue shopping" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User clicks Proceed to Checkout" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="Then User checks the total purchase price" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User clicks Proceed to checkout on Cart page" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User clicks Proceed to checkout on Address page" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User Clicks Proceed to checkout on Shipping(career) page" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="Then User check if he gets a error prompt for not checking Terms and conditions checkbox" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User closes the error message" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="And User logs off" time="0"/>
+  <testcase classname="Scenario: User selects articles and adds to cart" name="Scenario: User selects articles and adds to cart" time="0.001"/>
+  <testcase classname="Scenario: User selects articles and makes payment by check" name="Given user prefers to launch chrome browser" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by check" name="And URL is launched in the chrome browser" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by check" name="And User clicks SignIn button on the home page" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by check" name="And User enters user ID in email field2 &apos;samp@gmail.com&apos;" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by check" name="And User enters password in the password field &apos;abc123&apos;" time="0.001"/>
+  <testcase classname="Scenario: User selects articles and makes payment by check" name="And User clicks SignIn button" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by check" name="And User navigates to Women menu" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by check" name="And User chooses Causal Dresses" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by check" name="And User clicks Add to Cart" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by check" name="And User clicks continue shopping" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by check" name="And User navigates to Dresses" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by check" name="And User selects Evening dresses" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by check" name="And User clicks Add to Cart" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by check" name="And User clicks continue shopping" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by check" name="And User clicks Proceed to Checkout" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by check" name="Then User checks the total purchase price" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by check" name="And User clicks Proceed to checkout on Cart page" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by check" name="And User clicks Proceed to checkout on Address page" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by check" name="And User checks the Terms and conditions checkbox" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by check" name="And User Clicks Proceed to checkout on Shipping(career) page" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by check" name="And User choses pay by check option" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by check" name="And User clicks I confirm my order button" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by check" name="Then user verifies price of his order" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by check" name="Scenario: User selects articles and makes payment by check" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by Bank Wire" name="Given user prefers to launch chrome browser" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by Bank Wire" name="And URL is launched in the chrome browser" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by Bank Wire" name="And User clicks SignIn button on the home page" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by Bank Wire" name="And User enters user ID in email field2 &apos;samp@gmail.com&apos;" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by Bank Wire" name="And User enters password in the password field &apos;abc123&apos;" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by Bank Wire" name="And User clicks SignIn button" time="0.001"/>
+  <testcase classname="Scenario: User selects articles and makes payment by Bank Wire" name="And User navigates to Women menu" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by Bank Wire" name="And User chooses Causal Dresses" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by Bank Wire" name="And User clicks Add to Cart" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by Bank Wire" name="And User clicks continue shopping" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by Bank Wire" name="And User navigates to Dresses" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by Bank Wire" name="And User selects Evening dresses" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by Bank Wire" name="And User clicks Add to Cart" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by Bank Wire" name="And User clicks continue shopping" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by Bank Wire" name="And User clicks Proceed to Checkout" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by Bank Wire" name="Then User checks the total purchase price" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by Bank Wire" name="And User clicks Proceed to checkout on Cart page" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by Bank Wire" name="And User clicks Proceed to checkout on Address page" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by Bank Wire" name="And User checks the Terms and conditions checkbox" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by Bank Wire" name="And User Clicks Proceed to checkout on Shipping(career) page" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by Bank Wire" name="And User choses pay by bank wire option" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by Bank Wire" name="And User clicks I confirm my order button" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by Bank Wire" name="Then user verifies price of his order" time="0"/>
+  <testcase classname="Scenario: User selects articles and makes payment by Bank Wire" name="Scenario: User selects articles and makes payment by Bank Wire" time="0.001"/>
+</testsuite>

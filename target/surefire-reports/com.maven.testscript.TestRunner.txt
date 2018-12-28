@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.maven.testscript.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 270, Failures: 0, Errors: 2, Skipped: 16, Time elapsed: 720.331 sec <<< FAILURE!
+And User selects Mr and Mrs(Scenario: User enters his details to register as Automation Practise customer)  Time elapsed: 0.022 sec  <<< ERROR!
+java.lang.Exception: Element is not clickable
+	at com.maven.baseclass.BaseClass.elementClick(BaseClass.java:67)
+	at com.maven.stepdefinition.StepDefinitions.user_selects_Mr_and_Mrs(StepDefinitions.java:83)
+	at ?.And User selects Mr and Mrs(MAP_AutomationPractise_Smoketest.feature:35)
+
+Scenario: User enters his details to register as Automation Practise customer  Time elapsed: 0.024 sec  <<< ERROR!
+java.lang.Exception: Element is not clickable
+	at com.maven.baseclass.BaseClass.elementClick(BaseClass.java:67)
+	at com.maven.stepdefinition.StepDefinitions.user_selects_Mr_and_Mrs(StepDefinitions.java:83)
+	at ?.And User selects Mr and Mrs(MAP_AutomationPractise_Smoketest.feature:35)
+

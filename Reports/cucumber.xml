@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="19" time="717.587587">
+<testcase classname="User to signin, place orders and navigate to different pages in Automation Practise website" name="User clicks SignIn button to enter valid email address" time="24.253834">
+<system-out><![CDATA[Given user prefers to launch chrome browser.................................passed
+And URL is launched in the chrome browser...................................passed
+And User clicks SignIn button on the home page..............................passed
+And User enters valid email 'sample3@gmail.com'.............................passed
+And User clicks submit......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User to signin, place orders and navigate to different pages in Automation Practise website" name="User clicks SignIn button to enter invalid email address" time="29.166969">
+<system-out><![CDATA[Given user prefers to launch chrome browser.................................passed
+And URL is launched in the chrome browser...................................passed
+And User clicks SignIn button on the home page..............................passed
+And User enters invalid email...............................................passed
+And User clicks submit......................................................passed
+Then User verifies the email to proceed.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User to signin, place orders and navigate to different pages in Automation Practise website" name="User clicks SignIn button to enter duplicate email address" time="24.053908">
+<system-out><![CDATA[Given user prefers to launch chrome browser.................................passed
+And URL is launched in the chrome browser...................................passed
+And User clicks SignIn button on the home page..............................passed
+And User enters duplicate email.............................................passed
+And User clicks submit......................................................passed
+Then User verifies the email to proceed.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User to signin, place orders and navigate to different pages in Automation Practise website" name="User enters his details to register as Automation Practise customer" time="53.381421">
+<failure message="java.lang.Exception: Element is not clickable&#13;&#10;&#9;at com.maven.baseclass.BaseClass.elementClick(BaseClass.java:67)&#13;&#10;&#9;at com.maven.stepdefinition.StepDefinitions.user_selects_Mr_and_Mrs(StepDefinitions.java:83)&#13;&#10;&#9;at ✽.And User selects Mr and Mrs(MAP_AutomationPractise_Smoketest.feature:35)&#13;&#10;"><![CDATA[Given user prefers to launch chrome browser.................................passed
+And URL is launched in the chrome browser...................................passed
+And User clicks SignIn button on the home page..............................passed
+And User enters valid email 'samp1@gmail.com'...............................passed
+And User clicks submit......................................................passed
+And User selects Mr and Mrs.................................................failed
+And User enters first name 'Anvesh'.........................................skipped
+And User enters last name...................................................skipped
+And User clicks on email field to confirm the entered email address.........skipped
+And User enters password....................................................skipped
+And User enters DOB.........................................................skipped
+And User clicks checkbox to subscribe for newsletter........................skipped
+And User clicks checkbox to receive special offers from partners............skipped
+And User enters address line1...............................................skipped
+And User enters the name of the city........................................skipped
+And User selects a state from the dropdown..................................skipped
+And User enters the poscode.................................................skipped
+And User enters mobile number...............................................skipped
+And User enters alias information...........................................skipped
+And User clicks submit in registration page.................................skipped
+Then User checks his name in the header on accounts page 'Anvesh'...........skipped
+And User logs off...........................................................skipped
+
+StackTrace:
+java.lang.Exception: Element is not clickable
+	at com.maven.baseclass.BaseClass.elementClick(BaseClass.java:67)
+	at com.maven.stepdefinition.StepDefinitions.user_selects_Mr_and_Mrs(StepDefinitions.java:83)
+	at ✽.And User selects Mr and Mrs(MAP_AutomationPractise_Smoketest.feature:35)
+]]></failure>
+</testcase>
+<testcase classname="User to signin, place orders and navigate to different pages in Automation Practise website" name="User enters his details except password to register as Automation Practise customer" time="35.599855">
+<system-out><![CDATA[Given user prefers to launch chrome browser.................................passed
+And URL is launched in the chrome browser...................................passed
+And User clicks SignIn button on the home page..............................passed
+And User enters valid email 'sample3@gmail.com'.............................passed
+And User clicks submit......................................................passed
+And User selects Mr and Mrs.................................................passed
+And User enters first name 'Ankita'.........................................passed
+And User enters last name...................................................passed
+And User clicks on email field to confirm the entered email address.........passed
+And User enters DOB.........................................................passed
+And User clicks checkbox to subscribe for newsletter........................passed
+And User clicks checkbox to receive special offers from partners............passed
+And User enters address line1...............................................passed
+And User enters the name of the city........................................passed
+And User selects a state from the dropdown..................................passed
+And User enters the poscode.................................................passed
+And User enters mobile number...............................................passed
+And User enters alias information...........................................passed
+And User clicks submit in registration page.................................passed
+Then User checks error occured for not providing all the details to register 'pass'.passed
+]]></system-out>
+</testcase>
+<testcase classname="User to signin, place orders and navigate to different pages in Automation Practise website" name="User enters his details except alias information to register as Automation Practise customer" time="31.733667">
+<system-out><![CDATA[Given user prefers to launch chrome browser.................................passed
+And URL is launched in the chrome browser...................................passed
+And User clicks SignIn button on the home page..............................passed
+And User enters valid email 'sample3@gmail.com'.............................passed
+And User clicks submit......................................................passed
+And User selects Mr and Mrs.................................................passed
+And User enters first name 'Alwin'..........................................passed
+And User enters last name...................................................passed
+And User clicks on email field to confirm the entered email address.........passed
+And User enters password....................................................passed
+And User enters DOB.........................................................passed
+And User clicks checkbox to subscribe for newsletter........................passed
+And User clicks checkbox to receive special offers from partners............passed
+And User enters address line1...............................................passed
+And User enters the name of the city........................................passed
+And User selects a state from the dropdown..................................passed
+And User enters mobile number...............................................passed
+And User enters alias information...........................................passed
+And User clicks submit in registration page.................................passed
+Then User checks error occured for not providing all the details to register 'code'.passed
+]]></system-out>
+</testcase>
+<testcase classname="User to signin, place orders and navigate to different pages in Automation Practise website" name="User logs in with valid user credentials" time="31.241521">
+<system-out><![CDATA[Given user prefers to launch chrome browser.................................passed
+And URL is launched in the chrome browser...................................passed
+And User clicks SignIn button on the home page..............................passed
+And User enters user ID in email field2 'samp@gmail.com'....................passed
+And User enters password in the password field 'abc123'.....................passed
+And User clicks SignIn button...............................................passed
+Then User checks his name in the header on accounts page 'Anu'..............passed
+And User logs off...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User to signin, place orders and navigate to different pages in Automation Practise website" name="User tries to log in with invalid password" time="25.861645">
+<system-out><![CDATA[Given user prefers to launch chrome browser.................................passed
+And URL is launched in the chrome browser...................................passed
+And User clicks SignIn button on the home page..............................passed
+And User enters user ID in email field2 'samp@gmail.com'....................passed
+And User enters password in the password field 'abc'........................passed
+And User clicks SignIn button...............................................passed
+Then User checks if error occurs on providing invalid details 'Invalid password'.passed
+]]></system-out>
+</testcase>
+<testcase classname="User to signin, place orders and navigate to different pages in Automation Practise website" name=": User tries to log in with invalid user id" time="26.960915">
+<system-out><![CDATA[Given user prefers to launch chrome browser.................................passed
+And URL is launched in the chrome browser...................................passed
+And User clicks SignIn button on the home page..............................passed
+And User enters user ID in email field2 'samp@g'............................passed
+And User enters password in the password field 'abc123'.....................passed
+And User clicks SignIn button...............................................passed
+Then User checks if error occurs on providing invalid details 'Invalid email'.passed
+]]></system-out>
+</testcase>
+<testcase classname="User to signin, place orders and navigate to different pages in Automation Practise website" name="User accesses Order History page" time="36.875483">
+<system-out><![CDATA[Given user prefers to launch chrome browser.................................passed
+And URL is launched in the chrome browser...................................passed
+And User clicks SignIn button on the home page..............................passed
+And User enters user ID in email field2 'samp@gmail.com'....................passed
+And User enters password in the password field 'abc123'.....................passed
+And User clicks SignIn button...............................................passed
+And User clicks Order History button........................................passed
+Then user checks if he has landed on the Order History page 'Order history'.passed
+And User logs off...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User to signin, place orders and navigate to different pages in Automation Practise website" name="User accesses My Credit Slip page" time="36.921757">
+<system-out><![CDATA[Given user prefers to launch chrome browser.................................passed
+And URL is launched in the chrome browser...................................passed
+And User clicks SignIn button on the home page..............................passed
+And User enters user ID in email field2 'samp@gmail.com'....................passed
+And User enters password in the password field 'abc123'.....................passed
+And User clicks SignIn button...............................................passed
+And User clicks My Credit Slip button.......................................passed
+Then user checks if he has landed on the My Credit Slip page 'Credit'.......passed
+And User logs off...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User to signin, place orders and navigate to different pages in Automation Practise website" name="User accesses My Addresses page" time="37.574776">
+<system-out><![CDATA[Given user prefers to launch chrome browser.................................passed
+And URL is launched in the chrome browser...................................passed
+And User clicks SignIn button on the home page..............................passed
+And User enters user ID in email field2 'samp@gmail.com'....................passed
+And User enters password in the password field 'abc123'.....................passed
+And User clicks SignIn button...............................................passed
+And User clicks My Addresses button.........................................passed
+Then user checks if he has landed on the My Addresses page 'My addresses'...passed
+And User logs off...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User to signin, place orders and navigate to different pages in Automation Practise website" name="User accesses Personal Information page" time="29.836939">
+<system-out><![CDATA[Given user prefers to launch chrome browser.................................passed
+And URL is launched in the chrome browser...................................passed
+And User clicks SignIn button on the home page..............................passed
+And User enters user ID in email field2 'samp@gmail.com'....................passed
+And User enters password in the password field 'abc123'.....................passed
+And User clicks SignIn button...............................................passed
+And User clicks My Personal Information button..............................passed
+Then user checks if he has landed on the Personal Information page 'personal information'.passed
+And User logs off...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User to signin, place orders and navigate to different pages in Automation Practise website" name="User accesses My Wishlists page" time="37.33831">
+<system-out><![CDATA[Given user prefers to launch chrome browser.................................passed
+And URL is launched in the chrome browser...................................passed
+And User clicks SignIn button on the home page..............................passed
+And User enters user ID in email field2 'samp@gmail.com'....................passed
+And User enters password in the password field 'abc123'.....................passed
+And User clicks SignIn button...............................................passed
+And User clicks My Wishlists button.........................................passed
+Then user checks if he has landed on the My Wishlists page 'My wishlists'...passed
+And User logs off...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User to signin, place orders and navigate to different pages in Automation Practise website" name="User selects articles and adds to cart" time="46.811008">
+<system-out><![CDATA[Given user prefers to launch chrome browser.................................passed
+And URL is launched in the chrome browser...................................passed
+And User clicks SignIn button on the home page..............................passed
+And User enters user ID in email field2 'samp@gmail.com'....................passed
+And User enters password in the password field 'abc123'.....................passed
+And User clicks SignIn button...............................................passed
+And User navigates to Women menu............................................passed
+And User chooses Causal Dresses.............................................passed
+And User clicks Add to Cart.................................................passed
+And User clicks continue shopping...........................................passed
+And User navigates to Dresses...............................................passed
+And User selects Evening dresses............................................passed
+And User clicks Add to Cart.................................................passed
+And User clicks continue shopping...........................................passed
+And User logs off...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User to signin, place orders and navigate to different pages in Automation Practise website" name="User selects articles and adds to cart and tries to place order without accepting terms and conditions" time="54.174029">
+<system-out><![CDATA[Given user prefers to launch chrome browser.................................passed
+And URL is launched in the chrome browser...................................passed
+And User clicks SignIn button on the home page..............................passed
+And User enters user ID in email field2 'samp@gmail.com'....................passed
+And User enters password in the password field 'abc123'.....................passed
+And User clicks SignIn button...............................................passed
+And User navigates to Women menu............................................passed
+And User chooses Causal Dresses.............................................passed
+And User clicks Add to Cart.................................................passed
+And User clicks continue shopping...........................................passed
+And User navigates to Dresses...............................................passed
+And User selects Evening dresses............................................passed
+And User clicks Add to Cart.................................................passed
+And User clicks continue shopping...........................................passed
+And User clicks Proceed to Checkout.........................................passed
+Then User checks the total purchase price...................................passed
+And User clicks Proceed to checkout on Cart page............................passed
+And User clicks Proceed to checkout on Address page.........................passed
+And User Clicks Proceed to checkout on Shipping(career) page................passed
+Then User check if he gets a error prompt for not checking Terms and conditions checkbox.passed
+And User closes the error message...........................................passed
+And User logs off...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User to signin, place orders and navigate to different pages in Automation Practise website" name="User selects articles and adds to cart" time="51.043615">
+<system-out><![CDATA[Given user prefers to launch chrome browser.................................passed
+And URL is launched in the chrome browser...................................passed
+And User clicks SignIn button on the home page..............................passed
+And User enters user ID in email field2 'samp@gmail.com'....................passed
+And User enters password in the password field 'abc123'.....................passed
+And User clicks SignIn button...............................................passed
+And User navigates to Women menu............................................passed
+And User chooses Causal Dresses.............................................passed
+And User clicks Add to Cart.................................................passed
+And User clicks continue shopping...........................................passed
+And User navigates to Dresses...............................................passed
+And User selects Evening dresses............................................passed
+And User clicks Add to Cart.................................................passed
+And User clicks continue shopping...........................................passed
+And User clicks Proceed to Checkout.........................................passed
+Then User checks the total purchase price...................................passed
+And User clicks Proceed to checkout on Cart page............................passed
+And User clicks Proceed to checkout on Address page.........................passed
+And User Clicks Proceed to checkout on Shipping(career) page................passed
+Then User check if he gets a error prompt for not checking Terms and conditions checkbox.passed
+And User closes the error message...........................................passed
+And User logs off...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User to signin, place orders and navigate to different pages in Automation Practise website" name="User selects articles and makes payment by check" time="53.595255">
+<system-out><![CDATA[Given user prefers to launch chrome browser.................................passed
+And URL is launched in the chrome browser...................................passed
+And User clicks SignIn button on the home page..............................passed
+And User enters user ID in email field2 'samp@gmail.com'....................passed
+And User enters password in the password field 'abc123'.....................passed
+And User clicks SignIn button...............................................passed
+And User navigates to Women menu............................................passed
+And User chooses Causal Dresses.............................................passed
+And User clicks Add to Cart.................................................passed
+And User clicks continue shopping...........................................passed
+And User navigates to Dresses...............................................passed
+And User selects Evening dresses............................................passed
+And User clicks Add to Cart.................................................passed
+And User clicks continue shopping...........................................passed
+And User clicks Proceed to Checkout.........................................passed
+Then User checks the total purchase price...................................passed
+And User clicks Proceed to checkout on Cart page............................passed
+And User clicks Proceed to checkout on Address page.........................passed
+And User checks the Terms and conditions checkbox...........................passed
+And User Clicks Proceed to checkout on Shipping(career) page................passed
+And User choses pay by check option.........................................passed
+And User clicks I confirm my order button...................................passed
+Then user verifies price of his order.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User to signin, place orders and navigate to different pages in Automation Practise website" name="User selects articles and makes payment by Bank Wire" time="51.16268">
+<system-out><![CDATA[Given user prefers to launch chrome browser.................................passed
+And URL is launched in the chrome browser...................................passed
+And User clicks SignIn button on the home page..............................passed
+And User enters user ID in email field2 'samp@gmail.com'....................passed
+And User enters password in the password field 'abc123'.....................passed
+And User clicks SignIn button...............................................passed
+And User navigates to Women menu............................................passed
+And User chooses Causal Dresses.............................................passed
+And User clicks Add to Cart.................................................passed
+And User clicks continue shopping...........................................passed
+And User navigates to Dresses...............................................passed
+And User selects Evening dresses............................................passed
+And User clicks Add to Cart.................................................passed
+And User clicks continue shopping...........................................passed
+And User clicks Proceed to Checkout.........................................passed
+Then User checks the total purchase price...................................passed
+And User clicks Proceed to checkout on Cart page............................passed
+And User clicks Proceed to checkout on Address page.........................passed
+And User checks the Terms and conditions checkbox...........................passed
+And User Clicks Proceed to checkout on Shipping(career) page................passed
+And User choses pay by bank wire option.....................................passed
+And User clicks I confirm my order button...................................passed
+Then user verifies price of his order.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
