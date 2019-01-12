@@ -29,7 +29,7 @@ public class StepDefinitions extends BaseClass{
 	
 	@When("URL is launched in the chrome browser$")
 	public void URL_is_launched_in_the_chrome_browser() throws Throwable {
-		launchURL("http://automationpractice.com/index.php");		
+		launchURL(System.getProperty("URL"));		
 	}
 	
 	@Given("^User clicks SignIn button on the home page$")
